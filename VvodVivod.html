@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <title>Ввод-вывод</title>
+</head>
+<body>
+    <header class="header">
+    <p>Справочник</p>
+    <a href="Main.html" class="headlink">На Главную</a>
+    </header>
+    <div>
+        <p>
+            Поточный ввод-вывод в C++ выполняется с помощью функций сторонних библиотек. В С++, как и в С, нет встроенных в язык средств ввода-вывода.<br>
+            В С для этих целей используется библиотека stdio.h.<br>
+            В С++ разработана новая библиотека ввода-вывода iostream, использующая концепцию объектно-ориентированного программирования:<br>
+             <p class="code"> #include &lt;iostream&gt;</p>
+            
+        </p>
+        <br>
+        <p>Библиотека iostream определяет три стандартных потока:</p>
+        <p>cin  стандартный входной поток (stdin в С)</p>
+        <p>cout  стандартный выходной поток (stdout в С)</p>
+        <p>cerr  стандартный поток вывода сообщений об ошибках (stderr в С)</p>
+        <p>Для их использования в Microsoft Visual Studio необходимо прописать строку: <p class="code">using namespace std;</p> </p>
+         <br>
+         <p>
+            Для выполнения операций ввода-вывода переопределены две операции поразрядного сдвига:
+            <p>
+                &gt;&gt; получить из входного потока
+            </p>
+            <p>
+                &lt;&lt; поместить в выходной поток
+            </p>
+         </p>
+         <br>
+         <p>
+             пример вывода текста
+             <p class="code"> cout &lt;&lt; "Hello world!"</p>
+             <p>
+                 пример ввода текста
+                 <p class="code">
+                     cin &gt;&gt; i // после этого командная строка будет ждать ввода значений с клавиатуры 
+                 </p>
+             </p>
+         </p>
+    </div>
+</body>
+</html>
